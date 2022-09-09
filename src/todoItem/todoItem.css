@@ -1,0 +1,63 @@
+.todoItem {
+
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 24px;
+    border: solid 1px #0790e4;
+    margin-bottom: 25px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    margin: 10px 15px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.item-text {
+    margin: 24px 0 24px 24px;
+    color: #0790e4;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.todoItem--active {
+    background-color: white;
+}
+
+.item-text-active {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.Icon-delete {
+    background-color: #0790e4;
+    color: #fafafa;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 11px;
+    border: solid 1px #fafafa;
+    border-radius: 50%;
+}
+
+.Icon-delete:hover {
+    background-color: #fafafa;
+    color: #0790e4;
+}
+
+.todoItem-check {
+    position: absolute;
+    padding-right: 20px;
+    left: 30px;
+    color: #0790e4;
+}
+
+
+@media (max-width:400px) {
+    .todoItem {
+        width: 350px;
+    }
+}

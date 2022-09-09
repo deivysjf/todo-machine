@@ -1,0 +1,27 @@
+.createTodoButton {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background: #0790e4;
+    color: aliceblue;
+    font-size: 14px;
+    padding: 5px 75px 5px 75px;
+    border-radius: 5px;
+    border: 5px solid #0790e4;
+    z-index: 1;
+}
+
+.createTodoButton:hover {
+    border-color: #0790e4;
+    background-color: aliceblue;
+    color: #0790e4;
+    border: solid 1px;
+    font-size: 20px;
+}
+
+.cruz {
+    padding-right: 20px;
+    margin: 0px;
+}
